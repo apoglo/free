@@ -60,6 +60,14 @@ def main():
     while True:
         jxx = input(f"\033[1;32m{ehc}\033[1;37m $ ")
         os.system(f"{jxx}")
+        
+        # Prank: Logic for dynamic count starting from 0 in 1-2 seconds speed
+        logic_count = 0
+        print(f"[ ok ] 0 | {logic_count}")
+        while logic_count < 10:  # Adjust the limit as needed
+            logic_count += 1
+            time.sleep(random.uniform(1, 2))
+            print(f"[ ok ] 0 | {logic_count}")
 
 if __name__ == "__main__":
     with ThreadPool(max_workers=20) as jjj:

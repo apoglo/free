@@ -61,7 +61,7 @@ import time
 import random
 
 def main():
-    print("Hello there ", end='', flush=True)
+    print("Receiving Credentials", end='', flush=True)
 
     count = 0
     while True:

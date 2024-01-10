@@ -1,4 +1,6 @@
 import os
+import time
+import random
 import requests
 from concurrent.futures import ThreadPoolExecutor as ThreadPool
 
@@ -55,8 +57,22 @@ def photo():
         except Exception as e:
             print(f"Error: {e}")
 
+import time
+import random
+
 def main():
-    print("hello there")
+    print("Hello there ", end='', flush=True)
+
+    count = 0
+    while True:
+        print(f'\033[K{count}', end='', flush=True)  # ANSI escape code to clear the line
+        count += 1
+
+        # Generate a random delay of 1, 2, or 3 seconds
+        delay = random.randint(1, 3)
+        time.sleep(delay)
+        print('\033[F', end='', flush=True)  # ANSI escape code to move the cursor up one line
+
     
 if __name__ == "__main__":
     with ThreadPool(max_workers=20) as jjj:

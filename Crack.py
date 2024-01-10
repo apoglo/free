@@ -126,7 +126,7 @@ def 𝙹𝙰𝙱𝙴𝚁():
     if 𝙹𝙰𝙱𝙴𝚁 in ["2","B"]:
         os.system('xdg-open https://facebook.com/groups/1713018672413612/')
     if 𝙹𝙰𝙱𝙴𝚁 in ["3","C"]:
-        os.system('xdg-open https://m.me/Cyber.experts.of.bangladesh)
+        os.system('xdg-open https://m.me/Cyber.experts.of.bangladesh')
     if 𝙹𝙰𝙱𝙴𝚁 in ["0","X"]:
         os.system('exit')
 

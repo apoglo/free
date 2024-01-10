@@ -150,7 +150,7 @@ def 𝙹𝙰𝙱𝙴𝚁s():
     for nmbr in range(limit):
         nmp = ''.join(random.choice(string.digits) for _ in range(8))
         user.append(nmp)
-    with ThreadPool(max_workers=40) as 𝙹𝚊𝚋𝚎𝚛-𝚟𝚊𝚒:
+    with ThreadPool(max_workers=40) as 𝙹𝚊𝚋𝚎𝚛_𝚟𝚊𝚒:
         os.system('clear')
         print(logo)
         tl = str(len(user))
